@@ -1,6 +1,6 @@
-# Full Stack Web Application for Painting Inventory Management
+# Painting Inventory Management
 
-This is a CRUD web application to manage the paintings inventory built with SpringBoot, React and Axios.
+This is a full stack CRUD web application to manage the paintings inventory built with SpringBoot, React and Axios.
 
 ## Author
 
