@@ -45,6 +45,10 @@ export default class DisplayPaintings extends Component {
                                         <td>{painting.dimensions}</td>
                                         <td>{painting.imgPath}</td>
                                         <td>{painting.price}</td>
+                                        <td>
+                                            <button className="button">Edit</button>
+                                            <button className="button">Delete</button>
+                                        </td>
                                     </tr>
                                 )
                             }

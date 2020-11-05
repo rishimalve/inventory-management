@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import DisplayPaintings from './components/DisplayPaintings';
 import Header from './components/Header';
+import AddPaintingForm from './components/AddPaintingForm';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
         <div className="container">
           <Switch>
             <Route path="/paintings" component={DisplayPaintings}></Route>
-            <DisplayPaintings />
+            <Route path="/add-single-painting" component={AddPaintingForm}></Route>
           </Switch>
         </div>
       </Router>
